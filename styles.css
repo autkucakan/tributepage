@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: white;
+}
+
+.box {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#title {
+    font-size: 3rem;
+    color: rgb(22, 22, 22);
+    margin: 0;
+}
+
+#subtext {
+    font-size: 1.5rem;
+    color: rgb(22, 22, 22);
+    margin: 0;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#description {
+    font-size: 1rem;
+    color: rgb(22, 22, 22);
+}
+
+.bottombox {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bottombox ul {
+    text-align: left;
+}
+
+a:active {
+    color: rgb(22, 22, 22)
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+span {
+    font-weight: 900;
+}
